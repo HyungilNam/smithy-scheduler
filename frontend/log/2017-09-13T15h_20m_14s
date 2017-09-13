@@ -1,0 +1,15 @@
+2017/09/13 15:20:14 (main) The Logger has been initialized.
+2017/09/13 15:20:15 (getMajorListFromDB) The subjects list has been generated.
+2017/09/13 15:20:15 (main) The majorNameListJSON has been generated.
+2017/09/13 15:20:15 (main) Waiting request... 
+2017/09/13 15:20:17 (rootHandler) The Main page access has been occurred.
+2017/09/13 15:20:18 (rootHandler)  open ./webRoot/apple-touch-icon-precomposed.png: no such file or directory
+2017/09/13 15:20:18 (rootHandler)  open ./webRoot/apple-touch-icon.png: no such file or directory
+2017/09/13 15:20:20 (getDataFromDBByMajor) Request Major: 건축학부, Subjects Count: 67
+2017/09/13 15:20:20 (getDataFromDBByMajor) Request Major: 건축학부, Subjects Count: 67
+2017/09/13 15:20:20 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 15:20:20 (sendSubjectTableHandler) The subject table html code has been sent to browser.
+2017/09/13 15:20:34 (getDataFromDBByMajor) Request Major: STS(과학기술학)전공, Subjects Count: 10
+2017/09/13 15:20:34 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 15:20:34 (getDataFromDBByMajor) Request Major: STS(과학기술학)전공, Subjects Count: 10
+2017/09/13 15:20:34 (sendSubjectTableHandler) The subject table html code has been sent to browser.

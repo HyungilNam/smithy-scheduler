@@ -1,0 +1,19 @@
+2017/09/13 16:11:59 (main) The Logger has been initialized.
+2017/09/13 16:12:00 (getMajorListFromDB) The subjects list has been generated.
+2017/09/13 16:12:00 (main) The majorNameListJSON has been generated.
+2017/09/13 16:12:00 (main) Waiting request... 
+2017/09/13 16:12:03 (rootHandler) The Main page access has been occurred.
+2017/09/13 16:12:08 (getDataFromDBByMajor) Request Major: 생명공학전공, Subjects Count: 5
+2017/09/13 16:12:08 (getDataFromDBByMajor) Request Major: 생명공학전공, Subjects Count: 5
+2017/09/13 16:12:08 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 16:12:08 (sendSubjectTableHandler) The subject table html code has been sent to browser.
+2017/09/13 16:12:13 (getDataFromDBByMajor) Request Major: 경영학부, Subjects Count: 178
+2017/09/13 16:12:13 (getDataFromDBByMajor) Request Major: 경영학부, Subjects Count: 178
+2017/09/13 16:12:13 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 16:12:13 (sendSubjectTableHandler) The subject table html code has been sent to browser.
+2017/09/13 16:12:37 (rootHandler) The Main page access has been occurred.
+2017/09/13 16:14:13 (getDataFromDBByMajor) Request Major: 국어교육과, Subjects Count: 36
+2017/09/13 16:14:13 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 16:14:13 (getDataFromDBByMajor) Request Major: 국어교육과, Subjects Count: 36
+2017/09/13 16:14:13 (sendSubjectTableHandler) The subject table html code has been sent to browser.
+2017/09/13 16:24:04 (rootHandler) The Main page access has been occurred.

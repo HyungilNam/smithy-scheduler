@@ -1,0 +1,30 @@
+2017/09/13 12:53:35 (main) The Logger has been initialized.
+2017/09/13 12:53:35 (getMajorListFromDB) The subjects list has been generated.
+2017/09/13 12:53:35 (main) The majorNameListJSON has been generated.
+2017/09/13 12:53:35 (main) Waiting request... 
+2017/09/13 12:53:42 (rootHandler) The Main page access has been occurred.
+2017/09/13 12:53:45 (getDataFromDBByMajor) Request Major: 글로벌비즈니스문화전공(영어전용), Subjects Count: 14
+2017/09/13 12:53:45 (getDataFromDBByMajor) Request Major: 글로벌비즈니스문화전공(영어전용), Subjects Count: 14
+2017/09/13 12:53:45 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 12:53:45 (sendSubjectTableHandler) The subject table html code has been sent to browser.
+2017/09/13 12:54:47 (rootHandler) The Main page access has been occurred.
+2017/09/13 12:54:50 (getDataFromDBByMajor) Request Major: 교육학과, Subjects Count: 33
+2017/09/13 12:54:50 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 12:54:50 (getDataFromDBByMajor) Request Major: 교육학과, Subjects Count: 33
+2017/09/13 12:54:50 (sendSubjectTableHandler) The subject table html code has been sent to browser.
+2017/09/13 12:56:21 (rootHandler) The Main page access has been occurred.
+2017/09/13 15:03:14 (rootHandler) The Main page access has been occurred.
+2017/09/13 15:03:30 (getDataFromDBByMajor) Request Major: STS(과학기술학) 전공, Subjects Count: 10
+2017/09/13 15:03:30 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 15:03:30 (getDataFromDBByMajor) Request Major: STS(과학기술학) 전공, Subjects Count: 10
+2017/09/13 15:03:30 (sendSubjectTableHandler) The subject table html code has been sent to browser.
+2017/09/13 15:03:33 (rootHandler) The Main page access has been occurred.
+2017/09/13 15:03:41 (getDataFromDBByMajor) Request Major: STS(과학기술학) 전공, Subjects Count: 10
+2017/09/13 15:03:41 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 15:03:41 (getDataFromDBByMajor) Request Major: STS(과학기술학) 전공, Subjects Count: 10
+2017/09/13 15:03:41 (sendSubjectTableHandler) The subject table html code has been sent to browser.
+2017/09/13 15:03:45 (rootHandler) The Main page access has been occurred.
+2017/09/13 15:03:50 (getDataFromDBByMajor) Request Major: 국제학부, Subjects Count: 29
+2017/09/13 15:03:50 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 15:03:50 (getDataFromDBByMajor) Request Major: 국제학부, Subjects Count: 29
+2017/09/13 15:03:50 (sendSubjectTableHandler) The subject table html code has been sent to browser.

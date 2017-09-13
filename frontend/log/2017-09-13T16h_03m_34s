@@ -1,0 +1,9 @@
+2017/09/13 16:03:34 (main) The Logger has been initialized.
+2017/09/13 16:03:35 (getMajorListFromDB) The subjects list has been generated.
+2017/09/13 16:03:35 (main) The majorNameListJSON has been generated.
+2017/09/13 16:03:35 (main) Waiting request... 
+2017/09/13 16:03:42 (rootHandler) The Main page access has been occurred.
+2017/09/13 16:03:46 (getDataFromDBByMajor) Request Major: 건설환경공학과, Subjects Count: 39
+2017/09/13 16:03:46 (getDataFromDBByMajor) Request Major: 건설환경공학과, Subjects Count: 39
+2017/09/13 16:03:46 (sendDataByMajorHandler) The subject data have been sent.
+2017/09/13 16:03:46 (sendSubjectTableHandler) The subject table html code has been sent to browser.
