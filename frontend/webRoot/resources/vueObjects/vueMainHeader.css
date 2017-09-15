@@ -1,3 +1,6 @@
+/* The name of the object is vueMainHeader.
+ * every class property should have the prefix 'main-header-' */
+
 .main-header-container{
   width:100%;
   min-width:1200px;
