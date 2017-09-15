@@ -1,0 +1,41 @@
+/* spoqa han sans */
+@import  "./fonts/spoqa-han-sans/SpoqaHanSans-kr.css";
+
+*, body {
+  font-family: "Spoqa Han Sans", "Apple SD Gothic Neo", "Malgun Gothic", "MalgunGothic";
+	/* font-family: "Apple SD Gothic Neo", "Malgun Gothic", "MalgunGothic"; */
+	font-weight: 300;
+}
+
+/* for windows user */
+html {
+	-webkit-text-size-adjust: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+div.entry {
+	transform: rotate(-0.0000000001deg);
+	text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+/* for windows user end */
+
+/* css variable */
+:root {
+    --main-bright-color:#005fb7;
+    --main-color:#004483; /* Hanyang blue */
+    --main-dark-color:#003c73;
+
+    --selected:#f4ffdd;
+    --selected-hover:#eeffcb;
+    --selected-text:#29672a;
+}
+
+
+/* variable usage */
+#foo {
+    color: var(--main-color);
+}
+
+.ui.button {
+  font-family: "Spoqa Han Sans", "Apple SD Gothic Neo", "Malgun Gothic", "MalgunGothic";
+}

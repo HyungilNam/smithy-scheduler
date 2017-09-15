@@ -3,19 +3,49 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" type="text/css" href="/vendors/semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/resources/global.css">
+
+    <script src="/resources/global.js"></script>
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
 
     <title>Under developing</title>
   </head>
 
-  <body>
-    Start from whole new. <br/>
-    Do not copy old codes.<br/>
-    Type everything in new.<br/>
-    Careful Naming is needed.<br/>
+  <!-- Here is between head and body -->
+  <!-- Templates for vue objects -->
 
+  <!-- 이부분 go로 처리? vueObjects 안에 있는 html모두 읽어서 연결한 다음 하나로 만들자.-->
+  <!-- script 부분은 go에서 추가하도록 해야지. 한번 해보자. id는 파일 이름에서 처리하면 되겠다.-->
+  <script type="text/x-template" id="vueMainHeaderTemplate">
+    <div id="mainHeaderContainer" class="main-header-container">
+      <div id="mainHeaderContents" class="main-header-contents">
+        <div id="mainHeaderLogo" class="main-header-logo">
+          <a href="/"><p style="font-size:2.5em; font-weight:100;">Logo</p></a>
+        </div>
+        <div id="mainHeaderMenu" class="main-header-menu">
+          <div id="mainHeaderMenuButtons" class="main-header-menu-buttons ui large buttons">
+            <!-- <button id="btn_login" class="ui button" onclick="$('.page').dimmer('show');">로그인</button> -->
+            <button id="btn_login" class="ui hanyang basic transparent button">로그인</button>
+          </div>
+        </div>
+      </div>
+      <hr id="mainHeaderShadow" class="main-header-shadow">
+    </div>
+  </script>
+  <!-- Templates for vue objects end-->
+
+  <body>
+    <!-- file loading process: css → template → vue javascript -->
+    <link rel="stylesheet" type="text/css" href="/resources/vueObjects/vueMainHeader.css">
+    <div id='vueMainHeaderComponent'>
+      <vue-main-header></vue-main-header>
+    </div>
+    <script src="/resources/vueObjects/vueMainHeader.js" type="text/javascript"> </script>
+
+    <!-- Load scripts at the end of the body for the performace -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
                                                               crossorigin="anonymous" type="text/javascript"> </script>
+
     <script src="/vendors/semantic/semantic.min.js" type="text/javascript"> </script>
   </body>
 
