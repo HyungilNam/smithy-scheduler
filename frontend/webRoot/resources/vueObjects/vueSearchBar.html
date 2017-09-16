@@ -1,0 +1,36 @@
+<div id='vueSearchBarMajor' class='vue-search-bar-major'>
+  <h4 class="ui dividing header">(전공)다람쥐 헌 쳇바퀴에 타고파</h4>
+  <div class="field">
+    <!-- major -->
+    <div class="ui fluid search selection major dropdown">
+      <input type="hidden" name="majorSearchInput">
+      <i class="dropdown icon"></i>
+      <div class="default text">전공을 검색하세요</div>
+      <div id="majorList" class="menu">
+        <div v-for="majorName in majorNames" class="item" :data-value="majorName" :data-text="majorName">
+          {{ majorName }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id='vueSearchBarCultural' class='vue-search-bar-cultural' style="display:none">
+  <h4 class="ui dividing header">(교양)다람쥐 헌 쳇바퀴에 타고파</h4>
+  <div class="field">
+    <!-- cultural -->
+    <div class="ui fluid search multiple selection cultural dropdown">
+      <input type="hidden" name="culturalSearchInput">
+      <i class="dropdown icon"></i>
+      <div class="default text">교양 검색조건을 선택해주세요</div>
+
+      <!-- 2차원 for loop으로 해야겠다-->
+      <div id="culturalList" class="menu">
+        <!-- below codes should be controlled by VueJS (iteration) -->
+        <div class="item" data-value="cultural" data-text="cultural">
+          cultural1
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
