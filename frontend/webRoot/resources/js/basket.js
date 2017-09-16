@@ -11,7 +11,7 @@ var selectedLectureBasketList = new Vue({
 
     timeTablesData: [],
 
-    minLectureNumber: 2,
+    minLectureNumber: 1,
     maxLectureNumber: 100,
   },
   mounted: function() {
