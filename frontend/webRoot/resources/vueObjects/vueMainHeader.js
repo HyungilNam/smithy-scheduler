@@ -12,11 +12,6 @@ $.ajax({
     // Edit below code to modify the vue object.
     vueMainHeader = new Vue({
       el: '#vueMainHeader',
-      methods : {
-        popupLoginDimmer : function() {
-          vueLoginDimmer.show();
-        }
-      },
     });
   }
 });
