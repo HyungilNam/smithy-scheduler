@@ -1,4 +1,5 @@
-<div id='vueSearchBarMajor' class='vue-search-bar-major'>
+<div id='vueSearchBarMajor' class='vue-search-bar-major'
+  :style="{display:majorDisplay}">
   <h4 class="ui dividing header">(전공)다람쥐 헌 쳇바퀴에 타고파</h4>
   <div class="field">
     <!-- major -->
@@ -15,7 +16,8 @@
   </div>
 </div>
 
-<div id='vueSearchBarCultural' class='vue-search-bar-cultural' style="display:none">
+<div id='vueSearchBarCultural' class='vue-search-bar-cultural' 
+  :style="{display:culturalDisplay}">
   <h4 class="ui dividing header">(교양)다람쥐 헌 쳇바퀴에 타고파</h4>
   <div class="field">
     <!-- cultural -->
@@ -27,8 +29,8 @@
       <!-- 2차원 for loop으로 해야겠다-->
       <div id="culturalList" class="menu">
         <!-- below codes should be controlled by VueJS (iteration) -->
-        <div class="item" data-value="cultural" data-text="cultural">
-          cultural1
+        <div v-for="culturalFilter in culturalFilters" class="item" :data-value="culturalFilter" :data-text="culturalFilter">
+          {{ culturalFilter }}
         </div>
       </div>
     </div>

@@ -25,7 +25,8 @@ div.entry {
     --main-color:#004483; /* Hanyang blue */
     --main-shallow-dark-color:#00407b;
     --main-dark-color:#003c73;
-    --main-focus-dark-color:#00305b;
+    /* --main-focus-dark-color:#00305b; */
+    --main-focus-dark-color:#004483;
     --main-deep-dark-color:#002b52;
 
     --selected:#f4ffdd;

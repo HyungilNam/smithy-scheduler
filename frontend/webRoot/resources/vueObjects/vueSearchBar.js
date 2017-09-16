@@ -13,7 +13,11 @@ $.ajax({
     vueSearchBar = new Vue({
       el: '#vueSearchBar',
       data : {
-        majorNames : ['Server does not yet', 'send the', 'major name list data.']
+        majorNames : ['Server does not yet', 'send the', 'major name list data.'],
+        culturalFilters : ['Filter1', 'Filter2', 'Filter3', 'Filter4', 'Filter5', 'Filter6', 'Filter7', 'Filter8', 'Filter9', 'Filter10'],
+
+        majorDisplay : '',
+        culturalDisplay : 'none',
       },
       mounted : function() {
         // both major and cultural search bar is applied.
@@ -31,6 +35,16 @@ $.ajax({
         };
         xhr.send();
 
+      },
+      methods : {
+        showMajor : function() {
+          this.majorDisplay = '';
+          this.culturalDisplay = 'none';
+        },
+        showCultural : function() {
+          this.majorDisplay = 'none';
+          this.culturalDisplay = '';
+        },
       },
     });
   }

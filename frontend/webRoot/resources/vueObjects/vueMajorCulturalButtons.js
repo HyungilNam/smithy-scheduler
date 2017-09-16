@@ -19,9 +19,11 @@ $.ajax({
       methods : {
         selectMajor : function() {
           this.majorIsSelected = true;
+          vueSearchBar.showMajor();
         },
         selectCultural : function() {
           this.majorIsSelected = false;
+          vueSearchBar.showCultural();
         },
       }
     });
