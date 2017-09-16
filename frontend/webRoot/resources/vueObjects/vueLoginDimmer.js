@@ -1,21 +1,21 @@
 // Declare a global variable.
-var vueMainHeader;
+var vueLoginDimmer;
 
 // ajax call to read html template and generate a vue object.
 $.ajax({
-  url:'/resources/vueObjects/vueMainHeader.html',
+  url:'/resources/vueObjects/vueLoginDimmer.html',
   success:function(htmlString){
     // Insert html string to index.html
-    $('#vueMainHeader').html(htmlString);
+    $('#vueLoginDimmer').html(htmlString);
 
     // Generate vue object.
     // Edit below code to modify the vue object.
-    vueMainHeader = new Vue({
-      el: '#vueMainHeader',
+    vueLoginDimmer = new Vue({
+      el: '#vueLoginDimmer',
       methods : {
-        popupLoginDimmer : function() {
-          vueLoginDimmer.show();
-        }
+        show : function() {
+          $(this.$el).dimmer('show');
+        },
       },
     });
   }

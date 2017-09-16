@@ -1,0 +1,15 @@
+.login-box {
+  width: calc(1200px * 0.4);
+  margin: auto !important;
+  color: #000;
+  /* background-color: #eee !important; */
+}
+
+.login-box-text {
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+.login.button {
+  width: 130px;
+}

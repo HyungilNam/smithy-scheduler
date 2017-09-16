@@ -1,5 +1,4 @@
 <!-- id properties use camelCase, while class properties use kebab-case. -->
-
 <div id="mainHeaderContainer" class="main-header-container">
   <div id="mainHeaderContents" class="main-header-contents">
     <div id="mainHeaderLogo" class="main-header-logo">
@@ -7,7 +6,8 @@
     </div>
     <div id="mainHeaderMenu" class="main-header-menu">
       <div id="mainHeaderMenuButtons" class="main-header-menu-buttons ui large buttons">
-        <button id="mainHeaderButtonLogin" class="ui hanyang basic transparent button">로그인</button>
+        <button id="mainHeaderButtonLogin" class="ui hanyang basic transparent button"
+          @click="popupLoginDimmer">로그인</button>
       </div>
     </div>
   </div>

@@ -1,8 +1,13 @@
 <!-- id properties use camelCase, while class properties use kebab-case. -->
 
 <div id="majorCulturalButtonsContainer" class="major-cultural-buttons-container main-center">
-  <button id="majorButton" class="huge ui hanyang button" :class="{basic : !majorIsSelected}">전공</button> &nbsp;
-  <button id="culturalButton" class="huge ui hanyang button" :class="{basic : majorIsSelected}">교양</button>
-  <!-- <button id="majorButton" class="huge ui hanyang button">전공</button> &nbsp;
-     - <button id="culturalButton" class="huge ui hanyang basic button">교양</button> -->
+  <button id="majorButton" class="huge ui hanyang button"
+
+    :class="{basic : !majorIsSelected}"
+    @click="selectMajor">전공</button> &nbsp;
+
+  <button id="culturalButton" class="huge ui hanyang button"
+
+    :class="{basic : majorIsSelected}"
+    @click="selectCultural">교양</button>
 </div>
