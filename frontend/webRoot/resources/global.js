@@ -1,0 +1,2 @@
+var vueMainHeader;
+var vueMajorCulturalButtons;

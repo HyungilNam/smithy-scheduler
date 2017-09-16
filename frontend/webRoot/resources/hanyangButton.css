@@ -1,0 +1,171 @@
+/*--- Hanyang Button ---*/
+
+.ui.hanyang.buttons .button,
+.ui.hanyang.button {
+  background-color: var(--main-color);
+  color: #FFFFFF;
+  text-shadow: none;
+  background-image: none;
+}
+
+.ui.hanyang.button {
+  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+
+.ui.hanyang.buttons .button:hover,
+.ui.hanyang.button:hover {
+  background-color: var(--main-dark-color);
+  color: #FFFFFF;
+  text-shadow: none;
+}
+
+.ui.hanyang.buttons .button:focus,
+.ui.hanyang.button:focus {
+  background-color: var(--main-focus-dark-color);
+  color: #FFFFFF;
+  text-shadow: none;
+}
+
+.ui.hanyang.buttons .button:active,
+.ui.hanyang.button:active {
+  background-color: var(--main-deep-dark-color);
+  color: #FFFFFF;
+  text-shadow: none;
+}
+
+.ui.hanyang.buttons .active.button,
+.ui.hanyang.buttons .active.button:active,
+.ui.hanyang.active.button,
+.ui.hanyang.button .active.button:active {
+  background-color: var(--main-shallow-dark-color);
+  color: #FFFFFF;
+  text-shadow: none;
+}
+
+/* Basic */
+
+.ui.basic.hanyang.buttons .button,
+.ui.basic.hanyang.button {
+  box-shadow: 0px 0px 0px 1px var(--main-color) inset !important;
+  color: var(--main-color) !important;
+}
+
+.ui.basic.hanyang.buttons .button:hover,
+.ui.basic.hanyang.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px var(--main-dark-color) inset !important;
+  color: var(--main-dark-color) !important;
+}
+
+.ui.basic.hanyang.buttons .button:focus,
+.ui.basic.hanyang.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px var(--main-focus-dark-color) inset !important;
+  color: var(--main-dark-color) !important;
+}
+
+.ui.basic.hanyang.buttons .active.button,
+.ui.basic.hanyang.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px 1px var(--main-shallow-dark-color) inset !important;
+  color: var(--main-deep-dark-color) !important;
+}
+
+.ui.basic.hanyang.buttons .button:active,
+.ui.basic.hanyang.button:active {
+  background: #f8f8f8 !important;
+  box-shadow: 0px 0px 0px 1px var(--main-deep-dark-color) inset !important;
+  color: var(--main-deep-dark-color) !important;
+}
+
+.ui.buttons:not(.vertical) > .basic.hanyang.button:not(:first-child) {
+  margin-left: -1px;
+}
+
+/* Inverted */
+
+.ui.inverted.hanyang.buttons .button,
+.ui.inverted.hanyang.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px var(--main-bright-color) inset !important;
+  color: var(--main-bright-color);
+}
+
+.ui.inverted.hanyang.buttons .button:hover,
+.ui.inverted.hanyang.button:hover,
+.ui.inverted.hanyang.buttons .button:focus,
+.ui.inverted.hanyang.button:focus,
+.ui.inverted.hanyang.buttons .button.active,
+.ui.inverted.hanyang.button.active,
+.ui.inverted.hanyang.buttons .button:active,
+.ui.inverted.hanyang.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+
+.ui.inverted.hanyang.buttons .button:hover,
+.ui.inverted.hanyang.button:hover {
+  background-color: #ff5144;
+}
+
+.ui.inverted.hanyang.buttons .button:focus,
+.ui.inverted.hanyang.button:focus {
+  background-color: #ff4335;
+}
+
+.ui.inverted.hanyang.buttons .active.button,
+.ui.inverted.hanyang.active.button {
+  background-color: #ff5144;
+}
+
+.ui.inverted.hanyang.buttons .button:active,
+.ui.inverted.hanyang.button:active {
+  background-color: #ff392b;
+}
+
+/* Inverted Basic */
+
+.ui.inverted.hanyang.basic.buttons .button,
+.ui.inverted.hanyang.buttons .basic.button,
+.ui.inverted.hanyang.basic.button {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+
+.ui.inverted.hanyang.basic.buttons .button:hover,
+.ui.inverted.hanyang.buttons .basic.button:hover,
+.ui.inverted.hanyang.basic.button:hover {
+  box-shadow: 0px 0px 0px 2px #ff5144 inset !important;
+  color: var(--main-bright-color) !important;
+}
+
+.ui.inverted.hanyang.basic.buttons .button:focus,
+.ui.inverted.hanyang.basic.buttons .button:focus,
+.ui.inverted.hanyang.basic.button:focus {
+  box-shadow: 0px 0px 0px 2px #ff4335 inset !important;
+  color: var(--main-bright-color) !important;
+}
+
+.ui.inverted.hanyang.basic.buttons .active.button,
+.ui.inverted.hanyang.buttons .basic.active.button,
+.ui.inverted.hanyang.basic.active.button {
+  box-shadow: 0px 0px 0px 2px #ff5144 inset !important;
+  color: var(--main-bright-color) !important;
+}
+
+.ui.inverted.hanyang.basic.buttons .button:active,
+.ui.inverted.hanyang.buttons .basic.button:active,
+.ui.inverted.hanyang.basic.button:active {
+  box-shadow: 0px 0px 0px 2px #ff392b inset !important;
+  color: var(--main-bright-color) !important;
+}
+
+
+
+/* user added style */
+.ui.hanyang.basic.transparent.button {
+  box-shadow: 0 0 0 0px var(--main-color) inset !important;
+  color: var(--main-color) !important;
+  font-weight:600;
+}

@@ -23,7 +23,10 @@ div.entry {
 :root {
     --main-bright-color:#005fb7;
     --main-color:#004483; /* Hanyang blue */
+    --main-shallow-dark-color:#00407b;
     --main-dark-color:#003c73;
+    --main-focus-dark-color:#00305b;
+    --main-deep-dark-color:#002b52;
 
     --selected:#f4ffdd;
     --selected-hover:#eeffcb;
@@ -39,3 +42,43 @@ div.entry {
 .ui.button {
   font-family: "Spoqa Han Sans", "Apple SD Gothic Neo", "Malgun Gothic", "MalgunGothic";
 }
+
+.global-container{
+  width:100%;
+  top:80;
+  margin:0 auto;
+  position:relative
+}
+
+.main-contents-container{
+  max-width:1200px;
+  margin: 0 auto
+}
+
+.main-intro{
+  height: 250px;
+  padding-top: 60px;
+  text-align:justify
+}
+
+.main-intro > p {
+  font-size: 3em;
+  font-weight:100;
+  text-indent: 15px;
+}
+
+.main-center{
+  margin-left: calc(1200px * 0.2);
+  margin-right: calc(1200px * 0.2);
+  width:calc(1200px * 0.6);
+}
+
+.main-contents{
+  width: calc(1200px * 0.614);
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+
+

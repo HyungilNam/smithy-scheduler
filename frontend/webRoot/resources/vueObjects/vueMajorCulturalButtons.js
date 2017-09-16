@@ -1,9 +1,9 @@
 // ajax call to read html template and generate a vue object.
 $.ajax({
-  url:'/resources/vueObjects/vueMainHeader.html',
+  url:'/resources/vueObjects/vueMajorCulturalButtons.html',
   success:function(htmlCode){
     // Register global component
-    Vue.component('vue-main-header', {
+    Vue.component('vue-major-cultural-buttons', {
       template : htmlCode
     });
 
@@ -11,8 +11,11 @@ $.ajax({
     // Edit below code to modify the vue object.
     
     // This variable is declared in '../global.js'
-    vueMainHeader = new Vue({
-      el: '#vueMainHeaderComponent',
+    vueMajorCulturalButtons = new Vue({
+      el: '#vueMajorCulturalButtonsComponent',
+      data: {
+        majorIsSelected: true
+      },
     });
   }
 });
