@@ -35,6 +35,16 @@ $.ajax({
         };
         xhr.send();
 
+        // Add event handler. It is for when search value is changed.
+        $(this.$el).find("input[name='majorSearchInput']").change(function(event){
+          console.log(event.target.value);
+          // ajax call to get subjects data from DB.
+        });
+
+        $(this.$el).find("input[name='culturalSearchInput']").change(function(event){
+          console.log(event.target.value);
+          // ajax call to get cultural data from DB.
+        });
       },
       methods : {
         showMajor : function() {
