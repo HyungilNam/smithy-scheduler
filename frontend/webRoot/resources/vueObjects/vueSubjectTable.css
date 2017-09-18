@@ -1,0 +1,27 @@
+.subject-table-container {
+  margin: 14px 0 14px 0;
+}
+
+/* table css property */
+.subject-table > table > thead > tr > th {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+  border-left: 1px solid rgba(255, 255, 255, .2) !important;
+}
+
+.subject-table > table > thead > tr > th:nth-child(1) {
+  border-left: 1px solid rgba(35, 35, 35, .1) !important;
+}
+
+td.selectable.selected > a{
+  background-color: var(--selected) !important;
+  color:var(--selected-text) !important;
+}
+
+td.selectable.selected > a:hover{
+  background-color: var(--selected-hover) !important;
+}
+
+td > a:hover{
+  cursor: pointer;
+}

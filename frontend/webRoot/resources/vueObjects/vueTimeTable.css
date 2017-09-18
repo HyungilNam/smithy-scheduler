@@ -1,0 +1,15 @@
+.time-table-thumbnail{
+  width: calc(1200px * 0.3);
+  height: 300px;
+
+  text-align:center;
+  cursor: default;
+
+  position:fixed !important;
+}
+
+.time-table-thumbnail > p{
+  font-weight:100;
+  font-size:3em;
+  margin-top: 85px;
+}

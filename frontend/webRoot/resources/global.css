@@ -74,6 +74,13 @@ div.entry {
   width:calc(1200px * 0.6);
 }
 
+.main-left{
+  margin-left: calc(1200px * 0.04);
+  margin-right: calc(1200px * 0.36);
+  width:calc(1200px * 0.6);
+}
+
+
 .main-contents{
   width: calc(1200px * 0.614);
   margin: 0 !important;
@@ -84,6 +91,20 @@ div.entry {
   background-color: rgba(0,0,0,.20);
 }
 
+/* inverted segment */
+.ui.inverted.hanyang.segment {
+    background-color: var(--main-color)!important;
+    color: #fff!important;
+}
 
+/* ribbon */
+.ui.hanyang.ribbon.label {
+  border-color: var(--main-dark-color);
+}
 
+.ui.hanyang.label, .ui.hanyang.labels .label {
+    background-color: var(--main-bright-color);
+    border-color: var(--main-bright-color);
+    color: #fff!important;
+}
 

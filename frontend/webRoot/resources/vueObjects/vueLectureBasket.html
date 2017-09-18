@@ -1,0 +1,15 @@
+<div id="lectureBasket" class="ui segment lecture-basket"
+                        :style="{display:lectureBasketDisplay}">
+  <div class="ui top attached label">선택한 강의</div>
+
+  <div class="ui bottom attached basic label lecture-basket-buttons">
+    <div class="ui two bottom attached buttons">
+      <div class="ui combination-condition button" @click="showConditionPage">조합 조건 설정</div>
+      <div class="ui combination-start button">조합!</div>
+
+      <div class="ui combination-complete popup transition hidden top left">
+        <p>조합을 완료했습니다.</p>
+      </div>
+    </div>
+  </div>
+</div>

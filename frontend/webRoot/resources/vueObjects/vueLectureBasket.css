@@ -1,0 +1,24 @@
+.lecture-basket{
+  margin-top:310px !important;
+  width: calc(1200px * 0.3);
+  height: 40%;
+  position: fixed !important;
+  padding: 10px 0 25px 0 !important;
+}
+
+.lecture-basket > .ui.top.attached.label {
+  font-weight: 300;
+  text-align: center;
+  font-size: 1em;
+  height: 38px;
+  cursor: default;
+}
+
+.lecture-basket-buttons {
+  border: none !important;
+  padding : 0 !important;
+}
+
+.lecture-basket-buttons > .buttons > .button{
+  font-weight:300;
+}

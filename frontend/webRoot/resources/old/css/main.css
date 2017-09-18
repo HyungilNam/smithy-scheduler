@@ -225,12 +225,6 @@ td > a:hover{
   height: 40%;
   position: fixed !important;
   padding: 10px 0 25px 0 !important;
-
-  /* border-style: solid; */
-  /* border-width:3px; */
-  /* border-color: var(--main-color); */
-
-  /* text-align:center; */
 }
 
 .selected-lecture-list > .ui.top.attached.label {

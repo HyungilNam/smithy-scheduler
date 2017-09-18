@@ -13,6 +13,8 @@ $.ajax({
     vueSearchBar = new Vue({
       el: '#vueSearchBar',
       data : {
+        hideMainIntroWasCalled : false,
+
         majorNames : ['Server does not yet', 'send the', 'major name list data.'],
         culturalFilters : ['Filter1', 'Filter2', 'Filter3', 'Filter4', 'Filter5', 'Filter6', 'Filter7', 'Filter8', 'Filter9', 'Filter10'],
 
@@ -37,13 +39,26 @@ $.ajax({
 
         // Add event handler. It is for when search value is changed.
         $(this.$el).find("input[name='majorSearchInput']").change(function(event){
+          vueObject.hideMainIntro();
           console.log(event.target.value);
           // ajax call to get subjects data from DB.
+          // TODO
+
+
+          // Display Table
+          vueSubjectTable.makeItPossibleToShowMajorTable();
+          vueSubjectTable.showMajorSubjectTable();
         });
 
         $(this.$el).find("input[name='culturalSearchInput']").change(function(event){
+          vueObject.hideMainIntro();
           console.log(event.target.value);
           // ajax call to get cultural data from DB.
+          // TODO
+          
+          // Display Table
+          vueSubjectTable.makeItPossibleToShowCulturalTable();
+          vueSubjectTable.showCulturalSubjectTable();
         });
       },
       methods : {
@@ -55,6 +70,14 @@ $.ajax({
           this.majorDisplay = 'none';
           this.culturalDisplay = '';
         },
+
+        hideMainIntro : function() {
+          // hide main intro is only called once.
+          if (this.hideMainIntroWasCalled == false) {
+            $('#mainIntro').css('display', 'none');
+            this.hideMainIntroWasCalled = true;
+          }
+        }
       },
     });
   }

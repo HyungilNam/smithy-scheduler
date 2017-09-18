@@ -15,7 +15,10 @@ $.ajax({
       methods : {
         popupLoginDimmer : function() {
           vueLoginDimmer.show();
-        }
+        },
+        popupTestingConsole : function() {
+          vueTestingConsole.show();
+        },
       },
     });
   }

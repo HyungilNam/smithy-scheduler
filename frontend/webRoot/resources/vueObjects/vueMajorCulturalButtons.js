@@ -20,10 +20,14 @@ $.ajax({
         selectMajor : function() {
           this.majorIsSelected = true;
           vueSearchBar.showMajor();
+          vueSubjectTable.hideEveryTable();
+          vueSubjectTable.showMajorSubjectTable();
         },
         selectCultural : function() {
           this.majorIsSelected = false;
           vueSearchBar.showCultural();
+          vueSubjectTable.hideEveryTable();
+          vueSubjectTable.showCulturalSubjectTable();
         },
       }
     });
