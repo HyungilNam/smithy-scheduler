@@ -14,10 +14,16 @@ $.ajax({
       el: '#vueMainHeader',
       methods : {
         popupLoginDimmer : function() {
+          // send message to vueLoginDimmer to show the login dimmer.
           vueLoginDimmer.show();
+          // Do not change data of other objects directly.
+          // Use methods to interact other objects.
         },
         popupTestingConsole : function() {
+          // send message to vueTestingConsole to show the testing console.
           vueTestingConsole.show();
+          // Do not change data of other objects directly.
+          // Use methods to interact other objects.
         },
       },
     });
